@@ -1,0 +1,41 @@
+.sidebar{
+    background-color: rgb(174,12,46);
+}
+
+.bg-dark-red {
+    background: radial-gradient(circle, crimson 0%, darkred 100%);
+}
+
+.text-color-indian-red{
+    color: indianred;
+}
+
+.bg-lightgray {
+    background: radial-gradient(circle, #d4d4d4 0%, #a0a0a0 100%);
+}
+
+.btn-login {
+    background: radial-gradient(circle, #d4d4d4 0%, #a0a0a0 100%);
+    border: none;
+    color: indianred;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+    width: 100%; 
+}
+
+.btn-login:hover {
+    background: radial-gradient(circle, #a0a0a0 0%, #d4d4d4 100%);
+    color: rgb(174,12,46);
+}
+
+.btn-login:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgb(174,12,46);
+}
+
+
+
